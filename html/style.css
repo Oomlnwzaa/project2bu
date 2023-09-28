@@ -3,13 +3,43 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
+.login-btn{
+    background: transparent;
+    text-align: right;
+    position: relative;
+}
+.login{
+    display: inline-block;
+    text-decoration: none;
+    color: #080808;
+    border: 1px solid #606060;
+    padding: 12px 34px;
+    font-size: 20px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.login:hover{
+    border: 1px solid #000000;
+    background: #f9df69;
+    transition: 1s;
+}
 .header{
-   min-height: 100vh; 
+   min-height: 120vh; 
    width: 100%;
-   background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(image/image1.png);
+   background-image: linear-gradient(rgba(13, 21, 56, 0.7),rgba(13, 21, 56, 0.7)),url(image/img2.png);
    background-position: center;
    background-size: cover;
    position: relative;
+}
+.header-main{
+    min-height: 10vh;
+    width: 100%;
+    background: rgb(255,190,8);
+}
+img.logo-img{
+    height: auto;
+    width: 200px;
 }
 nav{
     display: flex;
@@ -33,7 +63,7 @@ nav img{
 .nav-links ul li a{
     color: #fff;
     text-decoration: none;
-    font-size: 13px;
+    font-size: 18px;
 }
 .nav-links ul li::after{
     content: "";
@@ -62,6 +92,22 @@ nav img{
     margin: 10px 0 40px;
     font-size: 25px;
     color: #fff;
+}
+.hero-bth{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.hero-bth:hover{
+    border: 1px solid #f44336;
+    background: #f44336;
+    transition: 1s;
 }
 nav .fa{
     display: none;
@@ -94,40 +140,34 @@ nav .fa{
         padding: 30px;
     }
 }
-.about{
-    background: #ffd23c;
-    margin-bottom: 5%;
-    padding: 20px 12px;
-    box-sizing: border-box;
-}
-.about-us{
-    background: #fefefe;
-    margin-bottom: 5%;
-    padding: 20px 12px;
-    box-sizing: border-box;
-}
-h3{
-    text-align: left;
-    font-weight: 600;
-    margin: 20px 150px;
-}
-.abtus-main:hover{
-    box-shadow: 0 0 20px rgba(0,0,0,0.2);
-}
 @media(max-width:700px){
     .row{
         flex-direction: column;
     }
 }
+.about{
+    background: rgb(255,190,8);
+    background-size: cover;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.abt-main h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 30px ;
+    padding-left: 50px;
+}
 .abt-main p{
-    margin-left: 10px;
-    text-align: left;
-    width: 30%;
-    padding: 0 75px;
+    text-align: center;
+    padding-left: 250px;
+    width: 50%;
 }
 .abtus-img{
-    height: 310px;
-    width: 310px;
+    text-align: right;
+    width: 300px;
+    height: 300px;
 }
 .acommodation{
     background: #ffd23c;
