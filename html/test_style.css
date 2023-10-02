@@ -1,182 +1,55 @@
+/* styles.css */
 
-* {
-    box-sizing: border-box;
-}
-user agent stylesheet
-div {
-    display: block;
-}
 body {
-    --fusion-audio-max-width-default: 100%;
-    --fusion-audio-background-color-default: #222222;
-    --fusion-audio-accent-color-default: #ffffff;
-    --fusion-audio-border-size-default: 0;
-    --fusion-audio-border-color-default: #ffffff;
-    --fusion-audio-border-top-left-radius-default: 0px;
-    --fusion-audio-border-top-right-radius-default: 0px;
-    --fusion-audio-border-bottom-right-radius-default: 0px;
-    --fusion-audio-border-bottom-left-radius-default: 0px;
-    --fusion-video-max-width-default: 100%;
-}
-#reviews #comments > h2, #wrapper .meta, .fusion-blog-timeline-layout .fusion-timeline-date, .fusion-body .tribe-block__tickets__registration__tickets__header, .fusion-main-menu .fusion-custom-menu-item-contents, .fusion-rollover .price .amount, .post .post-content, .post-content blockquote, .project-content .project-info h4, .review blockquote div, .search input, .sidebar .jtwt, .sidebar .widget .recentcomments, .sidebar .widget_archive li, .sidebar .widget_categories li, .sidebar .widget_layered_nav li, .sidebar .widget_links li, .sidebar .widget_meta li, .sidebar .widget_nav_menu li, .sidebar .widget_pages li, .sidebar .widget_product_categories li, .sidebar .widget_recent_entries li, .title-row, body {
-    color: var(--body_typography-color);
-}
-#nav ul li ul li a, #reviews #comments > h2, #side-header .fusion-contact-info, #side-header .header-social .top-menu, #sticky-nav ul li ul li a, #wrapper #nav ul li ul li > a, #wrapper #sticky-nav ul li ul li > a, .avada-container h3, .comment-form input[type="submit"], .ei-title h3, .fusion-accordian .panel-body, .fusion-image-wrapper .fusion-rollover .fusion-rollover-content .fusion-rollover-categories, .fusion-image-wrapper .fusion-rollover .fusion-rollover-content .fusion-rollover-title, .fusion-image-wrapper .fusion-rollover .fusion-rollover-content .price, .fusion-image-wrapper .fusion-rollover .fusion-rollover-content a, .fusion-main-menu .sub-menu, .fusion-main-menu .sub-menu li a, .fusion-megamenu-widgets-container, .fusion-megamenu-wrapper .fusion-megamenu-submenu > a:hover, .fusion-megamenu-wrapper li .fusion-megamenu-title-disabled, .fusion-page-title-bar h3, .gform_page_footer input[type=button], .meta .fusion-date, .more, .post-content blockquote, .review blockquote div strong, .review blockquote q, .single-tribe_events #tribe-events-content .tribe-events-event-meta dt, .ticket-selector-submit-btn[type=submit], body {
-    line-height: var(--body_typography-line-height);
-}
-#slidingbar-area .slide-excerpt h2, #slidingbar-area ul, .counter-box-content, .fusion-alert, .fusion-blog-layout-timeline .fusion-timeline-date, .fusion-footer-widget-area .slide-excerpt h2, .fusion-footer-widget-area ul, .fusion-progressbar .progress-title, .gform_wrapper .gfield_description, .gform_wrapper label, .jtwt .jtwt_tweet, .post-content blockquote, .project-content .project-info h4, .review blockquote q, .sidebar .jtwt .jtwt_tweet, .sidebar .slide-excerpt h2, body {
-    font-size: var(--body_typography-font-size);
-}
-#nav ul li ul li a, #reviews #comments > h2, #sticky-nav ul li ul li a, #wrapper #nav ul li ul li > a, #wrapper #sticky-nav ul li ul li > a, .avada-container h3, .comment-form input[type="submit"], .ei-title h3, .fusion-blog-shortcode .fusion-timeline-date, .fusion-image-wrapper .fusion-rollover .fusion-rollover-content .fusion-rollover-categories, .fusion-image-wrapper .fusion-rollover .fusion-rollover-content .fusion-rollover-title, .fusion-image-wrapper .fusion-rollover .fusion-rollover-content .price, .fusion-image-wrapper .fusion-rollover .fusion-rollover-content a, .fusion-load-more-button, .fusion-main-menu .sub-menu, .fusion-main-menu .sub-menu li a, .fusion-megamenu-widgets-container, .fusion-megamenu-wrapper .fusion-megamenu-submenu > a:hover, .fusion-megamenu-wrapper li .fusion-megamenu-title-disabled, .fusion-page-title-bar h3, .gform_page_footer input[type=button], .meta .fusion-date, .more, .post-content blockquote, .review blockquote div strong, .review blockquote q, .ticket-selector-submit-btn[type=submit], .wpcf7-form input[type="submit"], body {
-    font-family: var(--body_typography-font-family);
-    font-weight: var(--body_typography-font-weight);
-    letter-spacing: var(--body_typography-letter-spacing);
-    font-style: var(--body_typography-font-style,normal);
-}
-body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
     margin: 0;
-    color: #747474;
-    min-width: 320px;
-    -webkit-text-size-adjust: 100%;
-    font: 13px/20px PTSansRegular,Arial,Helvetica,sans-serif;
+    padding: 0;
 }
-:root {
-    --site_width: 1170px;
-    --margin_offset-top: 0px;
-    --margin_offset-bottom: 0px;
-    --margin_offset-top-no-percent: 0px;
-    --margin_offset-bottom-no-percent: 0px;
-    --main_padding-top: 0px;
-    --main_padding-top-or-55px: 0px;
-    --main_padding-bottom: 15px;
-    --hundredp_padding: 30px;
-    --hundredp_padding-fallback_to_zero: 30px;
-    --hundredp_padding-hundred_percent_negative_margin: -30px;
-    --sidebar_width: 25%;
-    --sidebar_gutter: 80px;
-    --sidebar_2_1_width: 22%;
-    --sidebar_2_2_width: 22%;
-    --dual_sidebar_gutter: 40px;
-    --primary_color: #dd9933;
-    --primary_color-7a: rgba(221,153,51,0.7);
-    --primary_color-85a: rgba(221,153,51,0.85);
-    --primary_color-2a: rgba(221,153,51,0.2);
-    --header_bg_image: ;
-    --header_bg_repeat: repeat;
-    --side_header_width: 305px;
-    --header_padding-top: 0px;
-    --header_padding-bottom: 0px;
-    --header_padding-left: 60px;
-    --header_padding-right: 60px;
-    --menu_highlight_background: #a0ce4e;
-    --menu_arrow_size-width: 23px;
-    --menu_arrow_size-height: 12px;
-    --menu_arrow_size-width-header_border_color_condition_5: ;
-    --nav_highlight_border: 0px;
-    --nav_padding: 45px;
-    --nav_padding-no-zero: 45px;
-    --dropdown_menu_top_border_size: 3px;
-    --dropdown_menu_width: 180px;
-    --mainmenu_dropdown_vertical_padding: 11px;
-    --menu_sub_bg_color: #ffffff;
-    --menu_bg_hover_color: #fcfcfc;
-    --menu_sub_sep_color: #f2f2f2;
-    --menu_h45_bg_color: #ffffff;
-    --nav_typography-font-family: Montserrat, Arial, Helvetica, sans-serif;
-    --nav_typography-font-weight: 700;
-    --nav_typography-font-size: 12px;
-    --nav_typography-font-style: ;
-    --nav_typography-letter-spacing: 0px;
-    --nav_typography-color: #ffffff;
-    --nav_typography-color-65a: rgba(255,255,255,0.65);
-    --nav_typography-color-35a: rgba(255,255,255,0.35);
-    --menu_hover_first_color: #cbaa5c;
-Show :All Properties (221 more)
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
-@media screen and (max-width :782px){}
-:root {
-    --adminbar-height: 46px;
+
+h1 {
+    text-align: center;
 }
-:root {
-    --adminbar-height: 32px;
+
+.form-group {
+    margin-bottom: 20px;
 }
-:root {
-    --button_padding: 11px 23px;
-    --button_font_size: 13px;
-    --button_line_height: 16px;
+
+label {
+    display: block;
+    margin-bottom: 5px;
 }
-:root {
-    --wp-admin-theme-color: #007cba;
-    --wp-admin-theme-color--rgb: 0,124,186;
-    --wp-admin-theme-color-darker-10: #006ba1;
-    --wp-admin-theme-color-darker-10--rgb: 0,107,161;
-    --wp-admin-theme-color-darker-20: #005a87;
-    --wp-admin-theme-color-darker-20--rgb: 0,90,135;
-    --wp-admin-border-width-focus: 2px;
-    --wp-block-synced-color: #7a00df;
-    --wp-block-synced-color--rgb: 122,0,223;
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
-:root {
-    --wp-admin-theme-color: #007cba;
-    --wp-admin-theme-color--rgb: 0,124,186;
-    --wp-admin-theme-color-darker-10: #006ba1;
-    --wp-admin-theme-color-darker-10--rgb: 0,107,161;
-    --wp-admin-theme-color-darker-20: #005a87;
-    --wp-admin-theme-color-darker-20--rgb: 0,90,135;
-    --wp-admin-border-width-focus: 2px;
-    --wp-block-synced-color: #7a00df;
-    --wp-block-synced-color--rgb: 122,0,223;
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
 }
-:root {
-    --wp-admin-theme-color: #007cba;
-    --wp-admin-theme-color--rgb: 0,124,186;
-    --wp-admin-theme-color-darker-10: #006ba1;
-    --wp-admin-theme-color-darker-10--rgb: 0,107,161;
-    --wp-admin-theme-color-darker-20: #005a87;
-    --wp-admin-theme-color-darker-20--rgb: 0,90,135;
-    --wp-admin-border-width-focus: 2px;
-    --wp-block-synced-color: #7a00df;
-    --wp-block-synced-color--rgb: 122,0,223;
-}
-:root {
-    --wp-admin-theme-color: #007cba;
-    --wp-admin-theme-color--rgb: 0,124,186;
-    --wp-admin-theme-color-darker-10: #006ba1;
-    --wp-admin-theme-color-darker-10--rgb: 0,107,161;
-    --wp-admin-theme-color-darker-20: #005a87;
-    --wp-admin-theme-color-darker-20--rgb: 0,90,135;
-    --wp-admin-border-width-focus: 2px;
-    --wp-block-synced-color: #7a00df;
-    --wp-block-synced-color--rgb: 122,0,223;
-}
-:root {
-    --wp-admin-theme-color: #007cba;
-    --wp-admin-theme-color--rgb: 0,124,186;
-    --wp-admin-theme-color-darker-10: #006ba1;
-    --wp-admin-theme-color-darker-10--rgb: 0,107,161;
-    --wp-admin-theme-color-darker-20: #005a87;
-    --wp-admin-theme-color-darker-20--rgb: 0,90,135;
-    --wp-admin-border-width-focus: 2px;
-    --wp-block-synced-color: #7a00df;
-    --wp-block-synced-color--rgb: 122,0,223;
-}
-:root {
-    --swiper-navigation-size: 44px;
-}
-:root {
-    --swiper-theme-color: #007aff;
-}
-@media (max-width: 48em) {}
-::-webkit-scrollbar {
-    width: 3px;
-    height: 3px;
-}
-@media (max-width: 48em) {}:-webkit-scrollbar-thumb {
-    background: #016aa7;
-    border-radius: 10px;
-}
-@media (max-width: 48em) {}
-::-webkit-scrollbar-track {
-    background-color: rgba(11,11,11,.4);
-    border-radius: 10px;
+
+button:hover {
+    background-color: #0056b3;
 }
