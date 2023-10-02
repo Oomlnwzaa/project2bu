@@ -1,0 +1,21 @@
+.gallery-page{
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    background: #ba8c47d8;
+    background-size: cover;
+}
+.gallery-page h1{
+    font-size: 50px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.gallery-img-page{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 500px;
+}

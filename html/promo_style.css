@@ -1,0 +1,32 @@
+.promotion-page{
+    background: rgb(255,190,8);
+    background-size: cover;
+    margin-top: 75px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+.promotion-page h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    margin: 20px ;
+}
+.promo-main p{
+    text-align: center;
+    margin-left: 50px;
+    font-size: 30px;
+    font-weight: 600;
+    border: 5px solid #606060;
+    width: 575px;
+    height: 600px;
+    background: #ffecac;
+}
+.promo-img{
+    text-align: right;
+    margin: auto;
+    width: 600px;
+    height: 600px;
+}

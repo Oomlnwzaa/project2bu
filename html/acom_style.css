@@ -1,0 +1,57 @@
+.acommodation-page{
+    background: #ffd23c;
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.acommodation-page h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+.room-page{
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+.roomtype-page{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    background: #eaeaea;
+    border: 5px solid #ffffff;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.roomtype-page p{
+    text-align: left;
+    width: 50%;
+    margin-top: 10px;
+    padding: 0 10px;
+}
+.room-img-page{
+    height: 350px;
+    width: 350px;
+}
+.room-btn-page{
+    display: inline-block;
+    text-decoration: none;
+    color: #080808;
+    border: 1px solid #606060;
+    text-align: center;
+    width: 150px;
+    margin-top: 30px;
+    margin-left: 125px;
+    padding: 12px 34px;
+    font-size: 20px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.room-btn-page:hover{
+    border: 1px solid #000000;
+    background: #f9df69;
+    transition: 1s;
+}
