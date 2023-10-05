@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.logout{
+    display: inline-block;
+    text-decoration: none;
+    color: #080808;
+    border: 1px solid #606060;
+    padding: 12px 20px;
+    font-size: 20px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.logout:hover{
+    border: 1px solid #000000;
+    background: #f9df69;
+    transition: 1s;
+}
+.header{
+   width: 100%;
+   background-position: center;
+   background-size: cover;
+   position: relative;
+}
+.header-main{
+    height: 100px;
+    width: 100%;
+    background: rgb(255,190,8);
+}
+img.logo-img{
+    height: auto;
+    width: 200px;
+}
+nav{
+    display: flex;
+    padding: 1% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 150px;
+}
+.nav-links ul a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 30px;
+}
+.room-book-page{
+    width: 80%;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    margin-left: 150px;
+    background: #ededed;
+}
+.room-book-main{
+    display: flex;
+}
+.Entry-number{
+    width: 50px;
+}
+.Entry-type{
+    width: 200px;
+}
+.btn{
+    margin-left: 10px;
+    width: 150px;
+    height: 30px;
+}
+.room-bottom-layout{
+    padding-bottom: 30px;
+}
+.room-book-btn{
+    margin-top: 200px;
+    text-align: center;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 2px solid #000000;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
