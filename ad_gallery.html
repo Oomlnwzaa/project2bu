@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Page Title</title> <!--เปลี่ยนที่หลังได้-->
+    <link rel="stylesheet" href="ad_gallery_style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"> <!--เปลี่ยนที่หลังได้-->
+</head>
+<body>
+    <section class="header">
+        <div class="header-main">
+        <nav>
+            <img class="logo-img" src="image/logo.png" width="300" height="300"> <!--เปลี่ยนรูปที่หลังได้-->
+            <div class="nav-links">
+                <ul>
+                    <a href="admin_room.html">ROOM</a>
+                    <a href="admin_promo.html">PROMOTIONS</a>
+                    <a href="ad_gallery.html">GALLERY</a>
+                    <a href="admin_room_book.html">BOOKING</a>
+                    <a href="admin_status.html">STATUS</a>
+                    <a href=""class="logout">LOG OUT</a>
+                </ul>
+            </div>
+        </nav>
+        </div>
+    </section>
+
+    <section class="gal-page">
+        <div class="gal-main">
+            <div class="gal-left-layout">
+                <div class="gal-num-type">
+                    <p>No :</p>
+                    <input class="Entry-number" type="number" id="no." name="no." required>
+                    <p>PICTURE TYPE :</p>
+                    <input class="Entry-type" type="text" id="type" name="type" required>
+                </div> 
+                <div class="gal-img"> 
+                    <p><input type="image" id="image" src="image/img9.png" width="300" height="300"/></p>
+                    <p><input type="image" id="image" src="image/img9.png" width="300" height="300"/></p>
+                    <p><input type="image" id="image" src="image/img9.png" width="300" height="300"/></p>
+                </div>
+                <div class="add-modif-btn">
+                    <button class="btn-add-pic">ADD</button>
+                    <button class="btn-del-pic">DELETE</button>
+                </div>
+            </div>
+        </div>
+        <div class="gal-bottom-layout">
+            <div class="gal-num-type">
+                <p>No :</p>
+                <input class="Entry-number" type="number" id="no." name="no." required>
+                <p>GALLERY TYPE :</p>
+                <input class="Entry-type" type="text" id="type" name="type" required>
+                <button class="btn-del-pic">DELETE</button>
+            </div>
+        </div>
+    </section>
+
+
+
+</body>
+</html>
